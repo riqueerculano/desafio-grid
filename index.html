@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="RiqueTube é um site de vídeos sobre tecnologia e programação."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-section">
+        <button class="menu-button" aria-label="Menu">
+          <img src="./assets/images/menu.png" alt="Ícone do Menu" />
+        </button>
+        <a href="#" class="logo-youtube">
+          <img src="./assets/images/youtube 1.png" alt="Logo do YouTube" />
+        </a>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Pesquisar" />
+        <button aria-label="Pesquisar">
+          <img src="./assets/images/search.png" alt="Ícone de Pesquisa" />
+        </button>
+      </div>
+
+      <div class="icons">
+        <button class="icon-btn" aria-label="Criar vídeo">
+          <img src="./assets/images/video.png" alt="Ícone de Vídeo" />
+        </button>
+        <button class="icon-btn" aria-label="Notificações">
+          <img src="./assets/images/bell.png" alt="Ícone de Notificação" />
+        </button>
+        <button class="icon-btn avatar-btn" aria-label="Perfil">
+          <img src="./assets/images/Avatar.png" alt="Ícone de Avatar" />
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- Menu Lateral (Sidebar) -->
+      <aside class="sidebar">
+        <nav>
+          <a href="#" class="nav-item active">
+            <img src="./assets/images/home.png" alt="" class="nav-icon" />
+            <span>Início</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/compass.png" alt="" class="nav-icon" />
+            <span>Explorar</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/youtube.png" alt="" class="nav-icon" />
+            <span>Inscrições</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/disc.png" alt="" class="nav-icon" />
+            <span>YouTube Music</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/thumbs-up.png" alt="" class="nav-icon" />
+            <span>Vídeos que gostei</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/clock.png" alt="" class="nav-icon" />
+            <span>Assistir mais tarde</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/download.png" alt="" class="nav-icon" />
+            <span>Downloads</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/film.png" alt="" class="nav-icon" />
+            <span>Filmes</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/book.png" alt="" class="nav-icon" />
+            <span>Aprender</span>
+          </a>
+          <a href="#" class="nav-item">
+            <img src="./assets/images/award.png" alt="" class="nav-icon" />
+            <span>Esportes</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- Grade de Vídeos -->
+      <main class="content">
+        <section class="video-grid" aria-label="Lista de vídeos">
+          <!-- Card 1 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/Thumb.png" alt="Geração Tech Unimed - BH - Ciência de Dados" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                <p class="video-stats">2,1 mil visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Scrum Talks</h3>
+                <p class="video-stats">1,6 mil visualizações</p>
+                <p class="video-time">Transmitido há 3 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Machine Learning Avançado - Fast Track</h3>
+                <p class="video-stats">1,7 mil visualizações</p>
+                <p class="video-time">Transmitido há 4 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 14.png" alt="Global Skills #2 - Project Planning" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Global Skills #2 - Project Planning</h3>
+                <p class="video-stats">2,1 mil visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 15.png" alt="Como aprender a programar Python do ZERO" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Como aprender a programar Python do ZERO</h3>
+                <p class="video-stats">711 visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/Thumb.png" alt="Geração Tech Unimed - BH - Ciência de Dados" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                <p class="video-stats">2,1 mil visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Scrum Talks</h3>
+                <p class="video-stats">1,6 mil visualizações</p>
+                <p class="video-time">Transmitido há 3 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 8 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Machine Learning Avançado - Fast Track</h3>
+                <p class="video-stats">1,7 mil visualizações</p>
+                <p class="video-time">Transmitido há 4 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 9 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Scrum Talks</h3>
+                <p class="video-stats">1,6 mil visualizações</p>
+                <p class="video-time">Transmitido há 3 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 10 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Machine Learning Avançado - Fast Track</h3>
+                <p class="video-stats">1,7 mil visualizações</p>
+                <p class="video-time">Transmitido há 4 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 11 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 14.png" alt="Global Skills #2 - Project Planning" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Global Skills #2 - Project Planning</h3>
+                <p class="video-stats">2,1 mil visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 12 -->
+          <article class="video-card">
+            <img class="video-thumbnail" src="./assets/images/image 15.png" alt="Como aprender a programar Python do ZERO" />
+            <div class="video-info">
+              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <div class="video-details">
+                <h3>Como aprender a programar Python do ZERO</h3>
+                <p class="video-stats">711 visualizações</p>
+                <p class="video-time">Transmitido há 2 dias</p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
