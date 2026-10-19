@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="RiqueTube é um site de vídeos sobre tecnologia e programação."
+      content="É um site de vídeos sobre tecnologia e programação."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube Clone</title>
@@ -14,8 +14,8 @@
     <!-- Header -->
     <header class="header">
       <div class="logo-section">
-        <button class="menu-button" aria-label="Menu">
-          <img src="./assets/images/menu.png" alt="Ícone do Menu" />
+        <button type="button" class="menu-button" aria-label="Menu">
+          <img src="./assets/images/menu.png" alt="" />
         </button>
         <a href="#" class="logo-youtube">
           <img src="./assets/images/youtube 1.png" alt="Logo do YouTube" />
@@ -23,20 +23,28 @@
       </div>
 
       <div class="search-box">
-        <input type="text" placeholder="Pesquisar" />
-        <button aria-label="Pesquisar">
-          <img src="./assets/images/search.png" alt="Ícone de Pesquisa" />
-        </button>
+        <form class="search-box" role="search">
+          <input
+            type="search"
+            name="q"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar vídeos"
+          />
+
+          <button type="submit" aria-label="Pesquisar">
+            <img src="./assets/images/search.png" alt="" />
+          </button>
+        </form>
       </div>
 
       <div class="icons">
-        <button class="icon-btn" aria-label="Criar vídeo">
+        <button type="button" class="icon-btn" aria-label="Criar vídeo">
           <img src="./assets/images/video.png" alt="Ícone de Vídeo" />
         </button>
-        <button class="icon-btn" aria-label="Notificações">
+        <button type="button" class="icon-btn" aria-label="Notificações">
           <img src="./assets/images/bell.png" alt="Ícone de Notificação" />
         </button>
-        <button class="icon-btn avatar-btn" aria-label="Perfil">
+        <button type="button" class="icon-btn avatar-btn" aria-label="Perfil">
           <img src="./assets/images/Avatar.png" alt="Ícone de Avatar" />
         </button>
       </div>
@@ -94,9 +102,17 @@
         <section class="video-grid" aria-label="Lista de vídeos">
           <!-- Card 1 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/Thumb.png" alt="Geração Tech Unimed - BH - Ciência de Dados" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/Thumb.png"
+              alt="Geração Tech Unimed - BH - Ciência de Dados"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
                 <p class="video-stats">2,1 mil visualizações</p>
@@ -107,9 +123,17 @@
 
           <!-- Card 2 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 12.png"
+              alt="Scrum Talks"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Scrum Talks</h3>
                 <p class="video-stats">1,6 mil visualizações</p>
@@ -120,9 +144,17 @@
 
           <!-- Card 3 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 13.png"
+              alt="Machine Learning Avançado - Fast Track"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Machine Learning Avançado - Fast Track</h3>
                 <p class="video-stats">1,7 mil visualizações</p>
@@ -133,9 +165,17 @@
 
           <!-- Card 4 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 14.png" alt="Global Skills #2 - Project Planning" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 14.png"
+              alt="Global Skills #2 - Project Planning"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Global Skills #2 - Project Planning</h3>
                 <p class="video-stats">2,1 mil visualizações</p>
@@ -146,9 +186,17 @@
 
           <!-- Card 5 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 15.png" alt="Como aprender a programar Python do ZERO" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 15.png"
+              alt="Como aprender a programar Python do ZERO"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Como aprender a programar Python do ZERO</h3>
                 <p class="video-stats">711 visualizações</p>
@@ -159,9 +207,17 @@
 
           <!-- Card 6 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/Thumb.png" alt="Geração Tech Unimed - BH - Ciência de Dados" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/Thumb.png"
+              alt="Geração Tech Unimed - BH - Ciência de Dados"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
                 <p class="video-stats">2,1 mil visualizações</p>
@@ -172,9 +228,17 @@
 
           <!-- Card 7 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 12.png"
+              alt="Scrum Talks"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Scrum Talks</h3>
                 <p class="video-stats">1,6 mil visualizações</p>
@@ -185,9 +249,17 @@
 
           <!-- Card 8 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 13.png"
+              alt="Machine Learning Avançado - Fast Track"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Machine Learning Avançado - Fast Track</h3>
                 <p class="video-stats">1,7 mil visualizações</p>
@@ -198,9 +270,17 @@
 
           <!-- Card 9 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 12.png" alt="Scrum Talks" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 12.png"
+              alt="Scrum Talks"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Scrum Talks</h3>
                 <p class="video-stats">1,6 mil visualizações</p>
@@ -211,9 +291,17 @@
 
           <!-- Card 10 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 13.png" alt="Machine Learning Avançado - Fast Track" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 13.png"
+              alt="Machine Learning Avançado - Fast Track"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Machine Learning Avançado - Fast Track</h3>
                 <p class="video-stats">1,7 mil visualizações</p>
@@ -224,9 +312,17 @@
 
           <!-- Card 11 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 14.png" alt="Global Skills #2 - Project Planning" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 14.png"
+              alt="Global Skills #2 - Project Planning"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Global Skills #2 - Project Planning</h3>
                 <p class="video-stats">2,1 mil visualizações</p>
@@ -237,9 +333,17 @@
 
           <!-- Card 12 -->
           <article class="video-card">
-            <img class="video-thumbnail" src="./assets/images/image 15.png" alt="Como aprender a programar Python do ZERO" />
+            <img
+              class="video-thumbnail"
+              src="./assets/images/image 15.png"
+              alt="Como aprender a programar Python do ZERO"
+            />
             <div class="video-info">
-              <img class="channel-avatar" src="./assets/images/Channel Avatar.png" alt="Avatar do canal" />
+              <img
+                class="channel-avatar"
+                src="./assets/images/Channel Avatar.png"
+                alt="Avatar do canal"
+              />
               <div class="video-details">
                 <h3>Como aprender a programar Python do ZERO</h3>
                 <p class="video-stats">711 visualizações</p>
